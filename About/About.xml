@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Pit of Despair</name>
+	<author>Sarg</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	
+	<description>
+Store your prisoners in a bottomless pit.
+
+&lt;size=24&gt;Features&lt;/size&gt;
+- Adds a new building, the Pit of Despair, where you can throw up to 10 prisoners. You can also throw food in the pit. Or not.
+- Prisoners inside the pit won't be able to escape or affect those outside, but they will die if not fed. They MAY also be deeply traumatized by the experience.
+- Consecrate your Pit to several deities from the Rim of Madness - Cults mod.
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+Should be savegame compatible and not break anything. Should!
+
+&lt;size=24&gt;Credit&lt;/size&gt;
+Credit goes to Jecrell for all his awesome work on Rimworld.
+Credit to licorice_tree for the cat statues
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+v1.0: Release (08/10/19)
+
+</description>
+</ModMetaData>
