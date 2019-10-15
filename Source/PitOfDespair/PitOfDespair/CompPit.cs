@@ -36,6 +36,9 @@ namespace PitOfDespair
 
         private static readonly Texture2D CatAspectTex = ContentFinder<Texture2D>.Get("UI/Commands/PD_CommandCats", true);
 
+        private static readonly Texture2D BoneAspectTex = ContentFinder<Texture2D>.Get("UI/Commands/PD_CommandBones", true);
+
+
         private static readonly Texture2D NormalAspectTex = ContentFinder<Texture2D>.Get("UI/Commands/PD_CommandNormal", true);
 
 
@@ -356,6 +359,20 @@ namespace PitOfDespair
             PD_ChangeAspectCats.defaultDesc = "PD_ConsecrateBastDesc".Translate();
             PD_ChangeAspectCats.icon = CatAspectTex;
             yield return PD_ChangeAspectCats;
+
+            Command_Action PD_ChangeAspectBones = new Command_Action();
+            PD_ChangeAspectBones.action = delegate
+            {
+                Messages.Message("PD_ConsecratingBones".Translate(), this.parent, MessageTypeDefOf.CautionInput, true);
+                this.buildingGod = "bones";
+                DoSmokePuff();
+                Graphic graphic = this.parent.Graphic;
+
+            };
+            PD_ChangeAspectBones.defaultLabel = "PD_ConsecrateBones".Translate();
+            PD_ChangeAspectBones.defaultDesc = "PD_ConsecrateBonesDesc".Translate();
+            PD_ChangeAspectBones.icon = BoneAspectTex;
+            yield return PD_ChangeAspectBones;
 
             Command_Action PD_ChangeAspectNone = new Command_Action();
             PD_ChangeAspectNone.action = delegate

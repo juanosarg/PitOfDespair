@@ -24,12 +24,16 @@
 
   <PD_ConsecrateBast>Consecrate to Bast</PD_ConsecrateBast>
   <PD_ConsecrateBastDesc>Consecrate this Pit of Despair to Bast. This is only a cosmetic option.</PD_ConsecrateBastDesc>
+  
+  <PD_ConsecrateBones>Consecrate to Court of Bones</PD_ConsecrateBones>
+  <PD_ConsecrateBonesDesc>Consecrate this Pit of Despair to the Court of Bones. This is only a cosmetic option.</PD_ConsecrateBonesDesc>
 
   <PD_UnConsecrate>Unconsecrate pit</PD_UnConsecrate>
   <PD_UnConsecrateDesc>Unconsecrate this Pit of Despair to keep its original appearance.</PD_UnConsecrateDesc>
   
   <PD_ConsecratingCthulhu>Consecrating this Pit of Despair to Cthulhu</PD_ConsecratingCthulhu>
   <PD_ConsecratingBast>Consecrating this Pit of Despair to Bast</PD_ConsecratingBast>
+  <PD_ConsecratingBones>Consecrating this Pit of Despair to the Court of Bones</PD_ConsecratingBones>
   <PD_UnConsecrating>Unconsecrating this Pit of Despair</PD_UnConsecrating>
 
 

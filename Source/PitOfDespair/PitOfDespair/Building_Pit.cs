@@ -28,6 +28,13 @@ namespace PitOfDespair
 
                     return newgraphic;
                 }
+                else if (this.GetComp<CompPit>().buildingGod == "bones")
+                {
+
+                    Graphic newgraphic = GraphicDatabase.Get(this.def.graphicData.graphicClass, "Things/Building/PD_PitOfDespairBones", this.def.graphicData.shaderType.Shader, this.def.graphicData.drawSize, this.DrawColor, this.DrawColorTwo);
+
+                    return newgraphic;
+                }
                 else if (this.GetComp<CompPit>().buildingGod == "none")
                 {
 
