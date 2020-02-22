@@ -3,8 +3,10 @@
 	<name>Pit of Despair</name>
 	<author>Sarg</author>
 	<supportedVersions>
-		<li>1.0</li>
-	</supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+   </supportedVersions>
+   <packageId>sarg.pitofdespair</packageId>
 	
 	<description>
 Store your prisoners in a bottomless pit.
@@ -22,6 +24,7 @@ Credit goes to Jecrell for all his awesome work on Rimworld.
 Credit to licorice_tree for the cat statues
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v2.0: Updated for RimWorld 1.1 (22/02/20)
 v1.1: Added pit graphics for the Court of Bones (15/10/19)
 v1.0: Release (08/10/19)
 
